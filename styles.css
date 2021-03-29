@@ -1,0 +1,76 @@
+:root {
+  --primary-color: #1561ad;
+  --secondary-color: #1c77ac;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+a {
+  text-decoration: none;
+}
+
+.profileLink {
+  width: 2.75rem;
+  height: 2.75rem;
+  margin: 0 0.625rem;
+}
+.companyName {
+  margin-block-end: 0;
+}
+.companyMetadata {
+  margin: 0.5rem 0 0 0.5rem;
+}
+.companySkills {
+  margin: 0.25rem 0 0 0.5rem;
+}
+
+#name {
+  margin-block-start: 0;
+}
+#header {
+  text-align: center;
+  background-color: #ebebeb;
+}
+#bio {
+  background-color: #ebebeb;
+  height: 100vh;
+  padding: 0 0.5rem;
+}
+#bioHeder {
+  text-align: center;
+}
+#profilePicture {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+#profileLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#bigography {
+  margin-block-end: 0;
+}
+#history {
+  padding-inline-start: 1rem;
+}
+
+@media (max-width: 800px) {
+  body {
+    display: block;
+  }
+  #bio {
+    height: auto;
+    padding-block-end: 0.5rem;
+  }
+}
