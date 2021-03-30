@@ -42,6 +42,8 @@ a {
 #bio {
   background-color: #ebebeb;
   height: 100vh;
+  position: sticky;
+  top: 0;
   padding: 0 0.5rem;
 }
 #bioHeder {
