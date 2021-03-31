@@ -1,8 +1,3 @@
-:root {
-  --primary-color: #1561ad;
-  --secondary-color: #1c77ac;
-}
-
 html,
 body {
   width: 100%;
@@ -60,11 +55,11 @@ a {
   flex-direction: row;
   justify-content: center;
 }
-#bigography {
+#biography {
   margin-block-end: 0;
 }
 #history {
-  padding-inline-start: 1rem;
+  padding: 0 1rem;
 }
 
 @media (max-width: 800px) {
@@ -74,5 +69,22 @@ a {
   #bio {
     height: auto;
     padding-block-end: 0.5rem;
+    position: static;
+  }
+  #name {
+    margin-block-end: 0.625rem;
+  }
+  #profilePicture {
+    width: 125px;
+    height: 125px;
+  }
+  #title {
+    margin: 0.5625rem auto;
+  }
+  #biography {
+    margin-block-start: 0.5rem;
+  }
+  #history {
+    padding: 0 0.5rem;
   }
 }
